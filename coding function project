@@ -1,0 +1,23 @@
+list = [1,2,3,4,5,6]
+#assigning elements to the list
+list.append(7)
+print(list)
+list.insert(3 , 45)  #insert(index , element)
+print(list)
+
+
+tuple = (7,8,9,0,1,2)
+#accessing values in tuple [index]
+print(tuple[3])
+print(tuple[1:5])
+
+
+dict = {1:'a', 2:'b' , 3:'c' , 4:'d'}
+#deleting element using pop method
+#dictionary.pop(key)
+dict.pop(3)
+print(dict)
+dict1 = {1:'A', 2:'B' , 3:'C' , 4:'D'}
+#using del keyword
+del dict1[2]
+print(dict1)
